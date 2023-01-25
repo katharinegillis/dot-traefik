@@ -8,4 +8,4 @@ cd "$HOME/utils" || return
 
 git clone git@github.com:katharinegillis/docker-traefik.git traefik
 cd "$HOME/utils/traefik" || return
-docker-compose up -d
+docker compose up -d
